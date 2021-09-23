@@ -1,4 +1,5 @@
 import React from "react";
+import { GreetUser } from "./components/GreetUser";
 import {
   BrowserRouter as Router,
   Switch,
@@ -38,7 +39,11 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <div>
+          <GreetUser />
+      </div>
     </Router>
+
   );
 }
 
