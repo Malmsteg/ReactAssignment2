@@ -1,16 +1,19 @@
 import React from "react";
-import { GreetUser } from "./components/GreetUser";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useHistory
-} from "react-router-dom";
+// import { GreetUser } from "./components/GreetUser";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link,
+//   useHistory
+// } from "react-router-dom";
 import {Routes} from "./routes/routes"
+// import {Navigation} from ".navigation/Navigation/Navigation"
 
 function App(){
-    return (<Routes></Routes>)
+    return (
+    <Routes>   
+    </Routes>)
 }
 
 export default App;
