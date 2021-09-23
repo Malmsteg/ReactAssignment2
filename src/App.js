@@ -39,18 +39,14 @@ function App() {
           </Route>
         </Switch>
       </div>
-      <div>
-          <GreetUser />
-      </div>
     </Router>
-
   );
 }
 
 export default App;
 
 function Home() {
-  return <h2>Home</h2>;
+  return (<h2>Home</h2>, <div><GreetUser /></div>);
 }
 
 function About() {
