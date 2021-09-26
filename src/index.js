@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {WindSpeedContext} from "./View/HomeView/HomeView"
 
 ReactDOM.render(
-  <React.StrictMode>
+  <WindSpeedContext.Provider>
     <App />
-  </React.StrictMode>,
+  </WindSpeedContext.Provider>,
   document.getElementById('root')
 );
 

@@ -7,14 +7,14 @@ export const DesktopNavigation = () =>
     return(
         <nav>
             <ul>
-                <li>
+                <li id="Home">
                     <Link to={{
                         pathname: RoutingPath.homeView,
                         state:{
                             toHome: true
                         }}} >Home</Link>
                     </li>
-                <li>
+                <li id="Weather">
                     <Link to={{
                         pathname: RoutingPath.weatherView,
                         state:{
