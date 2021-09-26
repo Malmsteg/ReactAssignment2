@@ -1,8 +1,8 @@
 const homeView = "/";
-const aboutView="/about";
+const weatherView="/WeatherView";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default{
-    homeView,
-    aboutView,
-};
+    homeView: homeView,
+    weatherView: weatherView,
+}

@@ -16,11 +16,11 @@ export const DesktopNavigation = () =>
                     </li>
                 <li>
                     <Link to={{
-                        pathname: RoutingPath.aboutView,
+                        pathname: RoutingPath.weatherView,
                         state:{
                             toHome: false
                         }
-                        }}>About me</Link>
+                        }}>Weather</Link>
                 </li>
             </ul>
         </nav>
