@@ -1,7 +1,12 @@
 import { useLocation } from "react-router"
+import { useEffect } from "react"
 
 function HomeViewClick(){
     const location = useLocation()
+    useEffect(() =>{
+        document.title="Hej!"
+    })
+
     if(location.state === undefined){
         return 
     }
@@ -13,8 +18,10 @@ function HomeViewClick(){
 
 export const HomeView = () => {
     return (
-        [<div>      
-        <h1>Detta är hemvyn</h1>
-        </div>, HomeViewClick()]
+        [
+        <div>      
+            <h1>Detta är hemvyn</h1>
+        </div>, HomeViewClick(),
+        ]
     )
 }
